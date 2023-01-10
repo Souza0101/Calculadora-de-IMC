@@ -10,7 +10,7 @@ altura = float( input ("Qual é a sua altura? "))
 #IMC = Peso ÷ (Altura × Altura)
 imc = peso / (altura * altura)
 #saida
-print(nome,"Você tem",altura,"metros",peso,"Kg e o IMC de ",imc)
+print(f"""{nome} Você tem {altura} metros {peso} Kg e o IMC de {imc:,.3f} """)
 #saida das categorias
 if(imc<18.5):
     print("Vc esta com um peso muito abaixo do recomendado")
